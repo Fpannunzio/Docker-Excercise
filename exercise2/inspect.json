@@ -1,0 +1,95 @@
+[
+    {
+        "Id": "sha256:5021b0410677adffd6674b7da4c9d9f62d498af61be816136584cd23d33b0f36",
+        "RepoTags": [
+            "nicopaez/pingapp:3.0.0"
+        ],
+        "RepoDigests": [
+            "nicopaez/pingapp@sha256:b3ccc9984deb6eb1dfd9ce172f29c38651902ece467c666f6e585ddf9ba4adb5"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2021-03-02T20:37:35.3307439Z",
+        "Container": "6b062380cf4aaf9456cfcc777c7a89de9a5d102fbca63e425d9bb0e9bd791c4e",
+        "ContainerConfig": {
+            "Hostname": "6b062380cf4a",
+            "Domainname": "",
+            "User": "appuser",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "4567/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bundle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "RUBY_MAJOR=2.5",
+                "RUBY_VERSION=2.5.7",
+                "RUBY_DOWNLOAD_SHA256=201870e8f58957d542233fef588b1d76f7bf962fea44dcbd2237f4a5899a3f95",
+                "RUBYGEMS_VERSION=3.0.3",
+                "GEM_HOME=/usr/local/bundle",
+                "BUNDLE_SILENCE_ROOT_WARNING=1",
+                "BUNDLE_APP_CONFIG=/usr/local/bundle"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"ruby\" \"app.rb\" \"-o\" \"0.0.0.0\"]"
+            ],
+            "Image": "sha256:03685fa9935e0f1944617396e044340549cbb23188aef258e945c5cc8a9f257e",
+            "Volumes": null,
+            "WorkingDir": "/apps/pingapp",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "nicopaez"
+            }
+        },
+        "DockerVersion": "20.10.2",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "appuser",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "4567/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bundle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "RUBY_MAJOR=2.5",
+                "RUBY_VERSION=2.5.7",
+                "RUBY_DOWNLOAD_SHA256=201870e8f58957d542233fef588b1d76f7bf962fea44dcbd2237f4a5899a3f95",
+                "RUBYGEMS_VERSION=3.0.3",
+                "GEM_HOME=/usr/local/bundle",
+                "BUNDLE_SILENCE_ROOT_WARNING=1",
+                "BUNDLE_APP_CONFIG=/usr/local/bundle"
+            ],
+            "Cmd": [
+                "ruby",
+                "app.rb",
+                "-o",
+                "0.0.0.0"
+            ],
+            "Image": "sha256:03685fa9935e0f1944617396e044340549cbb23188aef258e945c5cc8a9f257e",
+            "Volumes": null,
+                "sha256:fc09db109f075f932f4c894bb94d128c51c241c48372be48abc1911f479e8e73",
+                "sha256:7b49ec019b872a73f8d04638256292ddb6b6a1900a165fd9b11bc9d88a9118c1",
+                "sha256:ff5b4dd0fa8778ed232fb8631c9500142d7a1b85d017ea8277747a35c2c28447",
+                "sha256:ba79cea50eb3649cb3126671eb87d505cdf35e7926b18296f383b13f164dff46"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
