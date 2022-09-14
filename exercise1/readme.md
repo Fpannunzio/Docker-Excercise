@@ -1,7 +1,2 @@
-
-## Buildear imagen
-
-docker build -t webserver .
-
-## Correr imagen exponiendo el puerto 80 en mi localhost 8080
-docker run -it --rm -d -p 8080:80 --name web webserver
+## Correr imagen exponiendo el puerto 80 en mi localhost 80
+docker run -p 80:80 --name excercise1 -v ${PWD}/html:/usr/share/nginx/html:ro -d nginx

@@ -1,7 +1,11 @@
 FROM maslick/minimalka:jdk11
+RUN mkdir /app
 WORKDIR /app
+RUN useradd -m appuser
 COPY passwordapi.jar /app
+RUN chown -R appuser:appuser /app
+USER appuser
 EXPOSE 8080:8080
-CMD java $JAVA_OPTIONS -jar passwordapi.jar
+CMD ["java", "-jar", "passwordapi.jar"]
 
 
