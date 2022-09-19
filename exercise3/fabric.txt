@@ -1,18 +1,12 @@
-IMAGE          CREATED       CREATED BY                                      SIZE      COMMENT
-c479d0765f34   3 years ago   /bin/sh -c #(nop)  USER 405                     0B        
-<missing>      3 years ago   /bin/sh -c #(nop)  EXPOSE 8080                  0B        
-<missing>      3 years ago   /bin/sh -c #(nop) COPY file:a6e9b80e7469da50…   25.4MB    
-<missing>      3 years ago   /bin/sh -c #(nop)  ARG JAR_FILE                 0B        
-<missing>      4 years ago   /bin/sh -c #(nop)  CMD ["/deployments/run-ja…   0B        
-<missing>      4 years ago   /bin/sh -c chmod 755 /deployments/run-java.sh   18.6kB    
-<missing>      4 years ago   /bin/sh -c #(nop) COPY file:9664759840f7d23e…   18.6kB    
-<missing>      4 years ago   /bin/sh -c #(nop)  EXPOSE 8778 9779             0B        
-<missing>      4 years ago   /bin/sh -c #(nop) ADD file:19cf38fb1c34ab0eb…   919B      
-<missing>      4 years ago   /bin/sh -c mkdir -p /opt/agent-bond  && curl…   869kB     
-<missing>      4 years ago   /bin/sh -c #(nop) ADD file:0e4d47c8ceb53292e…   4.04kB    
-<missing>      4 years ago   /bin/sh -c apk add --update     curl     ope…   99.1MB    
-<missing>      4 years ago   /bin/sh -c #(nop)  ENV JAVA_APP_DIR=/deploym…   0B        
-<missing>      4 years ago   /bin/sh -c mkdir -p /deployments                0B        
-<missing>      4 years ago   /bin/sh -c #(nop)  USER root                    0B        
-<missing>      4 years ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B        
-<missing>      4 years ago   /bin/sh -c #(nop) ADD file:25f61d70254b9807a…   4.41MB    
+"Type": "layers",
+            "Layers": [
+                "sha256:73046094a9b835e443af1a9d736fcfc11a994107500e474d0abf399499ed280c",
+                "sha256:7884dc8a73eb153770c61d327c027df411ea035bb2292a0a75373481a4b7fbd0",
+                "sha256:717d137b16f996bf59af63c2abfd89b69faec166381549203c1439d6fdc6ddf2",
+                "sha256:b85e653858e97c56eedb2e19e225c482cbad71fd54f90059c0da3c2dc58713cf",
+                "sha256:f42a66141db68550a56f7b8c4cd9e2f0127d94accfe77e124f4b68999e9374b3",
+                "sha256:ad275ed181794a5e37d0b3964e23ecedbd272a03ba26215f8d83de65e27436a3",
+                "sha256:dd69ad62f09595f6c7ffa79438b9e7b3f0135a8d8d3e425c1bc37c8a70abc635",
+                "sha256:8bef50a12deaffef57f54aaf2facddce8c04ea9253efe8afd33c44b7d0fc2f8e",
+                "sha256:b4b541fa416f1d2f1d983b11c28cb1a91e3c09167cabb0cfd29fcdeb2239721c"
+            ]

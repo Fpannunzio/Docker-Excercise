@@ -1,12 +1,7 @@
-IMAGE          CREATED       CREATED BY                                      SIZE      COMMENT
-22e1f6ea60af   3 years ago   /bin/sh -c #(nop)  CMD ["/usr/bin/java" "-ja…   0B        
-<missing>      3 years ago   /bin/sh -c #(nop) COPY file:a6e9b80e7469da50…   25.4MB    
-<missing>      4 years ago   /bin/sh -c set -x  && apk add --no-cache   o…   78.6MB    
-<missing>      4 years ago   /bin/sh -c #(nop)  ENV JAVA_ALPINE_VERSION=8…   0B        
-<missing>      4 years ago   /bin/sh -c #(nop)  ENV JAVA_VERSION=8u171       0B        
-<missing>      4 years ago   /bin/sh -c #(nop)  ENV PATH=/usr/local/sbin:…   0B        
-<missing>      4 years ago   /bin/sh -c #(nop)  ENV JAVA_HOME=/usr/lib/jv…   0B        
-<missing>      4 years ago   /bin/sh -c {   echo '#!/bin/sh';   echo 'set…   87B       
-<missing>      4 years ago   /bin/sh -c #(nop)  ENV LANG=C.UTF-8             0B        
-<missing>      4 years ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B        
-<missing>      4 years ago   /bin/sh -c #(nop) ADD file:25f61d70254b9807a…   4.41MB 
+"Type": "layers",
+            "Layers": [
+                "sha256:73046094a9b835e443af1a9d736fcfc11a994107500e474d0abf399499ed280c",
+                "sha256:298c3bb2664fb7f8514ecdde8b76c0ca95c7c7b82eaa326a7e9661e017488164",
+                "sha256:8bc7bbcd76b68a51a3b70de9f19faed58f9c0795802dbff98de584b7e7eb9c22",
+                "sha256:07f83dc33f640a098b67a7587dfc42f0e91f3b21aa08a7a02e613edca4901e22"
+            ]
