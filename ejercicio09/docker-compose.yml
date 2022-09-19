@@ -12,7 +12,23 @@ services:
       DATABASE_URL: "postgres://postgres:Passw0rd!@db:5432/postgres"
     depends_on:
       - db
+    networks:
+      - frontend
+      - backend
   db:
     image: postgres:14.4-alpine
     environment:
-      POSTGRES_PASSWORD: Passw0rd!
+      POSTGRES_PASSWORD_FILE: /run/secrets/password
+    networks:
+      - backend
+    secrets: 
+      - password
+
+networks:
+  frontend:
+    name: frontend
+  backend:
+    name: backend
+secrets:
+   password:
+     file: secrets/password
