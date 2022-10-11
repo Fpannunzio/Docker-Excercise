@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pingapp-new
+  labels:
+    app: pingapp-new
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pingapp-new
+  template:
+    metadata:
+      labels:
+        app: pingapp-new
+    spec:
+      containers:
+      - name: pingapp-new
+        image: nicopaez/pingapp:4.0.0
+        ports:
+        - containerPort: 4567 
+        livenessProbe:
+          httpGet:
+            path: /is-alive
+            port: 4567
+          initialDelaySeconds: 30 
+          periodSeconds: 10

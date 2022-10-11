@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: pingapp-new
+  labels:
+    app: pingapp-new
+spec:
+  selector:
+    app: pingapp-new
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 4567
+  type: NodePort
